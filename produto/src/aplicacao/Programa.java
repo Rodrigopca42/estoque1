@@ -19,6 +19,11 @@ public class Programa {
         int quantidade = tec.nextInt();
         
         Produto produto = new Produto(nome, preco, quantidade);
+
+        produto.setNome("Computador");
+        System.out.println("Produto atualizado: "+ produto.getNome());
+        System.out.println("Produto atualizado: "+ produto.getNome());
+        System.out.println("Produto atualizado: "+ produto.getNome());
         
         System.out.println(" ");
         System.out.println("Produtos em estoque: "+ produto);
